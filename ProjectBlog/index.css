@@ -1,0 +1,572 @@
+/*encabezado*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #F90808;
+}
+
+body {
+	
+	position: relative;
+	padding-bottom: 4em;
+	min-height: 100vh;
+	background: linear-gradient(rgba(35, 40, 51, 0.85),rgba(35, 40, 51, 0.85)),url(fondo.png);
+	background-position: center;
+	
+	
+}
+
+header{
+	
+	background: #f0e675;
+	width: 100%;
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.menu{
+	width: 1000px;
+	margin: 0 ;
+	font-family:'Trebuchet MS' ;
+}
+
+
+.img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding: 8px;
+}
+
+.logo{
+	padding-left: 10%;
+	position: absolute;
+	width: 710px;
+	height: 570px;
+}
+
+.clique{
+	float: right;
+	width: 475px;
+	height: 380px;
+	padding-right: 290px;
+	padding-top: 160px;
+}
+
+.registro{
+	
+	position: absolute;
+	top: 470px;
+	right: 480px;
+	float: right;
+}
+
+.r{
+	text-decoration: none;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	background: #f0e675;
+	color: #F90808;
+}
+
+.ingresar{
+	position: absolute;
+	top: 470px;
+	right: 370px;
+	float: right;
+}
+
+.i{
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	background: #f0e675;
+	color: #F90808;
+}
+
+.reg{
+	color: #F90808;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: 'Trebuchet MS';
+	position: absolute;
+	top: 200px;
+	right:280px;
+	float: right;
+}
+
+
+.nom{
+	position: absolute;
+	top: 300px;
+	right:600px;
+	float: right;
+}
+
+#nombre{
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 209.18px;
+	height: 40px;
+
+	background: #F8EB63;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+
+	color: #F90808;
+	letter-spacing: -0.015em;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+
+}
+
+.ape{
+	position: absolute;
+	top: 300px;
+	right:370px;
+	float: right;
+}
+
+#apellido{
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 209.18px;
+	height: 40px;
+
+	background: #F8EB63;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+
+	color: #F90808;
+	letter-spacing: -0.015em;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+
+}
+
+.email{
+	position: absolute;
+	top: 350px;
+	right:600px;
+	float: right;
+}
+
+#email{
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 440.36px;
+	height: 40px;
+
+	background: #F8EB63;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+
+	color: #F90808;
+	letter-spacing: -0.015em;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+
+.contra{
+	position: absolute;
+	top: 400px;
+	right:600px;
+	float: right;
+}
+
+#contra{
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 440.36px;
+	height: 40px;
+
+	background: #F8EB63;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+
+	color: #F90808;
+	letter-spacing: -0.015em;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.registrar{
+	position: absolute;
+	top: 470px;
+	right: 485px;
+	float: right;
+}
+
+#reg{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	background: #f0e675;
+	color: #F90808;
+}
+
+
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	list-style: none;
+	margin-left: 75px;
+	padding: 25px 0;
+	float: left;
+	position: relative;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #F90808;
+	font-weight: bold;
+}
+
+/*pie de pagina*/
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-width: 130px;
+	text-decoration: none;
+	background: #f0e675;
+	margin: 0 auto;
+	color: #F90808;
+	font-family:'Trebuchet MS';
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.reg2{
+	color: #F90808;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: 'Trebuchet MS';
+	position: absolute;
+	top: 200px;
+	right:307px;
+	float: right;
+}
+
+.email2{
+	position: absolute;
+	top: 350px;
+	right:600px;
+	float: right;
+}
+
+#email2{
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 440.36px;
+	height: 40px;
+
+	background: #F8EB63;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+
+	color: #F90808;
+	letter-spacing: -0.015em;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.contra2{
+	position: absolute;
+	top: 400px;
+	right:600px;
+	float: right;
+}
+
+#contra2{
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 440.36px;
+	height: 40px;
+
+	background: #F8EB63;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+
+	color: #F90808;
+	letter-spacing: -0.015em;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.entrar{
+	position: absolute;
+	top: 470px;
+	right: 485px;
+	float: right;
+}
+
+#ent{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	background: #f0e675;
+	color: #F90808;
+}
+
+.teorias{
+	color: #F90808;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	position: absolute;
+	top: 6%;
+	right: 39.1%;
+}
+
+#secreto{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top: 10%;
+	right: 38%;
+	
+}
+
+.contenido{
+
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	margin-top: 45% ;
+	margin-left: 25.4%;
+	color: white;
+	height: 900px;
+	width:  700px;
+}
+
+#p1{
+	text-align: justify;
+}
+
+#p2{
+	text-align: center;
+}
+
+#secreto2{
+	
+	width: 200px;
+	height: 200px;
+	margin-left: 35.5%;
+}
+
+#secreto3{
+	width: 200px;
+	height: 200px;
+	margin-left: 35.5%;
+}
+
+.comentario{
+	height: 500px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	color: #F90808;
+	margin-top: 100px;
+	margin-left: -35px;
+	
+}
+
+#lapiz{
+	background-color: #f0e675;
+	color: #F90808;
+	text-decoration:none;
+	font-family: 'Trebuchet MS';
+	margin-top: 1px
+}
+
+.enviar{
+	position:absolute;
+	width: 100px;
+	height:50px ;
+	margin-left: 32.5%;
+	background-color: #f0e675;
+	color: #F90808;
+
+}
+
+.contenido2{
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	margin-top: 40% ;
+	margin-left: 25.4%;
+	color: white;
+	height: 800px;
+	width:  700px;
+}
+
+#sentados{
+	width: 350px;
+	height: 230px;
+	margin-left: 25%;
+}
+
+.historia{
+	color: #F90808;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	position: absolute;
+	top: 6%;
+	right: 47%;
+}
+
+#grupo{
+	position: absolute;
+	width: 450px;
+	height: 250px;
+	top: 10%;
+	right: 36.5%;
+}
+
+.comentario2{
+	height: 500px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	color: #F90808;
+	margin-top: 1400px;
+	margin-left: -35px;
+}
+
+.comentario3{
+	height: 500px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	color: #F90808;
+	margin-top: 500px;
+	margin-left: -35px;
+}
+
+.frame{
+	margin-left: 25%;
+	height: 200px;
+	width: 350px;
+}
+
+.frame2{
+	width: 560px;
+	height: 315px;
+}
+
+.frame3{
+	width: 560px;
+	height: 315px;
+	margin-left: 10%;
+}
+
+h2{
+	text-align: center;
+	color: #F8EB63;
+}
+
+.discografia{
+	color: #F90808;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	position: absolute;
+	top: 6%;
+	right: 45%;
+}
+
+#disco{
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	top: 10%;
+	left: 40%;
+}
+
+#p2{
+	color: #F90808;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	font-size: x-large;
+}
+
+.canciones{
+	color: #F90808;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	position: absolute;
+	top: 6%;
+	right: 41%;
+}
+
+#p3{
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	text-align: center;
+	font-size: larger;
+	
+}
+
+#mejores{
+	position: absolute;
+	height: 250px;
+	width: 550px;
+	top: 8%;
+	left: 30%;
+}
+
+.contenido4{
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	margin-top: 40% ;
+	margin-left: 25.4%;
+	color: white;
+	height: 2200px;
+	width:  700px;
+}
+
+.comentario4{
+	height: 500px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';
+	color: #F90808;
+	margin-top: 500px;
+	margin-left: -35px;
+}
+
+#contenido{
+
+	background-color: #f0e675;
+	color: #F90808;
+	text-decoration:none;
+	font-family: 'Trebuchet MS';
+	margin-right: 100px;
+	
+	
+	
+}
